@@ -1,0 +1,32 @@
+# Exclude Python bytecode files
+__pycache__
+*.pyc
+*.pyo
+
+# Exclude virtual environment directories
+venv/
+env/
+
+# Exclude temporary files
+*.log
+*.tmp
+*.bak
+
+# Exclude Dockerfile and .dockerignore itself (optional)
+Dockerfile
+.dockerignore
+
+# Exclude uploaded files (if any) that don't need to be included in the container
+uploads/
+
+# Exclude any IDE-specific files (e.g., VSCode, PyCharm)
+.vscode/
+.idea/
+
+# Exclude local development configuration files
+*.env
+*.env.local
+
+plant_dataset
+uploads
+FarmPe1_key.pem
